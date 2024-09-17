@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    /* background-color: #db1c1c81; */
+    /* background-image: ;
+     */
+     /* background-image: url(img2.jpg); */
+   
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* background-color: rgb(220, 227, 15); */
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    
+}
+
+.logo img {
+    width: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.auth-buttons button {
+    background-color: #F5CF4D;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.hero {
+    height: 100vh;
+    background: url('img2.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    position: relative;
+    margin: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* .slider-arrows {
+    position: relative;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+} */
+/* 
+.left-arrow, .right-arrow {
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+} */
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #f0f0f000;
+}
+
+.feature-card {
+    /* background-color: #F5CF4D; */
+    padding: 0px;
+    margin: 0px;
+    /* width: 25%; */
+    /* text-align: center; */
+    /* border-radius: 10px; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.feature-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+input{
+    
+    float: left;
+    padding: 0px;
+    border-radius: 45px;
+    /* margin-top: 8px; */
+    margin-right: 16px;
+    font-size: 17px;
+    font-weight: 600;
+   
+    
+
+}
+
+.b1{
+  color: black;
+}
+
+.b1:hover{
+    transform: scale(1.25);
+}
+
+.feature-card:hover{
+    transform: scale(1.25);
+}
